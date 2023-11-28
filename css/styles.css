@@ -86,7 +86,7 @@ body{
 }
 
 .navbar .item{
-    font-size: 13px;
+    font-size: 16px;
     color: #ccc;
     cursor: pointer;
 }
@@ -277,6 +277,10 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+}
+
+.box-main .box-container .box-content .box-sec1 .card-box{
+    max-width: 492px;
 }
 
 .box-main .box-container .box-content .box-sec1 .card-box .title-content{
