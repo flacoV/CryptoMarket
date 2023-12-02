@@ -404,6 +404,49 @@ text-align: center;
     max-width: 400px;
 }
 
+#market-data-table, #market-data-table{
+    width: 70%;
+    margin: 0 auto;
+   }
+   #market-data-table th{
+    padding: 8px;
+    text-align: left;
+    padding-top: 12px;
+    background-color: var( — secondary-color);
+    color: white;
+   }
+   #market-data-table th, #market-data-table td{
+    padding: 8px;
+    border-bottom: 1px solid var( — secondary-color);
+   }
+   #market-data-table td >img{
+    height: 40px;
+    width: 40px;
+   }
+    
+    #market-data-table2{
+    width: 70%;
+    margin: 0 auto;
+   }
+
+   #market-data-table2 th{
+    padding: 8px;
+    text-align: left;
+    padding-top: 12px;
+    background-color: var( — secondary-color);
+    color: white;
+   }
+
+   #market-data-table2 th, #market-data-table2 td{
+    padding: 8px;
+    border-bottom: 1px solid var( — secondary-color);
+   }
+
+   #market-data-table2 td >img{
+    height: 40px;
+    width: 40px;
+   }
+
 .wrap{
     max-width: 400px;
     cursor: default;
