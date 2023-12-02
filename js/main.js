@@ -21,3 +21,23 @@ function handleMouseMove(e) {
 function handleWindowResize() {
   width = window.innerWidth;
 }
+
+document.getElementById("miBoton").addEventListener("click", function() {
+  // Redirige a la otra página
+  window.location.href = "create-account.html";
+});
+
+document.getElementById("miBoton2").addEventListener("click", function() {
+  // Redirige a la otra página
+  window.location.href = "log-in.html";
+});
+
+document.getElementById("miBoton3").addEventListener("click", function() {
+  // Redirige a la otra página
+  window.location.href = "./pages/create-account.html";
+});
+
+document.getElementById("miBoton4").addEventListener("click", function() {
+  // Redirige a la otra página
+  window.location.href = "./pages/log-in.html";
+});
