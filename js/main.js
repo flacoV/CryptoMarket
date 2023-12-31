@@ -83,3 +83,5 @@ function marketData(){
   searchData();
   marketData();
  }
+
+ 
