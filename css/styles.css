@@ -530,12 +530,16 @@ text-align: center;
     width: auto;
     height: auto;
     max-width: 1600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 180px;
    }
 
    .iaSection .animated-text {
     font-size: 34px;
     font-weight: bold;
     padding: 15px;
+    color: #fff;
 }
 
 .iaSection .animated-text span {
@@ -544,7 +548,7 @@ text-align: center;
 
 .iaSection .animated-text span::before {
     content: "Future";
-    background: linear-gradient(95deg, #7752FE 3.2%, #8E8FFA 99.5%);
+    background: linear-gradient(180deg, rgba(68,171,182,1) 0%, rgba(50,192,207,1) 48%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -557,7 +561,7 @@ text-align: center;
     width: calc(100% + 8px);
     height: 100%;
     background-color: #221f2f;
-    border-left: 2px solid #8E8FFA;
+    border-left: 2px solid #32c0cf;
     right: -8px;
     animation: cursor .8s infinite, typing 20s steps(14) infinite;
 }
@@ -570,9 +574,18 @@ text-align: center;
 
 @keyframes words {
     0%,20%{
-        content: "Future";
+        content: "Hexy";
     }
     21%,40%{
+        content: "Future";
+    }
+    41%,60%{
+        content: "Hexy";
+    }
+    61%,80%{
+        content: "Future";
+    }
+    81%,100%{
         content: "Hexy";
     }
 }
@@ -586,11 +599,41 @@ text-align: center;
     }
 }
 
+.iaSection .iaTxt {
+    padding: 26px;
+    background-color: #1ba3ed;
+    border: 1px solid #32C0CF;
+    background: #8E8FFA00;
+    border-radius: 2rem;
+    box-shadow: -1px 1px 99px 13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 99px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 99px 13px rgba(0,0,0,0.75);
+    animation: toLeft 0.8s;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.iaSection .iaTxt .iaDesc {
+    width: auto;
+    max-width: 600px;
+    color: grey;
+}
+
+.iaSection .iaContainer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 60px;
+}
+
 .iaMainAnim .spinner {
     width: 70.4px;
     height: 70.4px;
     --clr: rgb(255, 255, 255);
-    --clr-alpha: rgb(142, 143, 250);
+    --clr-alpha: #32C0CF;
     animation: spinner 1.6s infinite ease;
     transform-style: preserve-3d;
   }
