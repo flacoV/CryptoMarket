@@ -400,11 +400,30 @@ text-align: center;
 
 .w-container{
    display: flex;
+   justify-content: space-between;
+   flex-direction: row;
     padding: 20px;
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+
+}
+
+.w-container .coin {
+    width: 100%;
     max-width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-container .coin img {
+width: auto;
+max-width: 800px;
+position: absolute;
+right: 150px;
+filter: blur(1px);
 }
 
 .marketContainer{
@@ -623,11 +642,6 @@ text-align: center;
     text-align: center;
 }
 
-.iaSection .iaTxt:hover {
-    transform: scale(1.1);
-    width: auto;
-}
-
 .iaSection .iaTxt .iaDesc {
     width: auto;
     max-width: 600px;
@@ -817,6 +831,53 @@ text-align: center;
     font-weight: 700;
     font-size: 32px;
     padding: 15px;
+  }
+
+  .mContainerGt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .mContainerGt .getStartedMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+    max-width: 900px;
+    margin: 90px 0 0 0;
+    text-align: center;
+  }
+
+  .mContainerGt .getStartedMain h2 {
+    color: #fff;
+  }
+
+  .mContainerGt .getStartedMain p {
+    background: linear-gradient(95deg, #7752FE 3.2%, #8E8FFA 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .mContainerGt form {
+    background-color: #1ba3ed;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .mContainerGt form .emailGt {
+    width: auto;
+    max-width: 300px;
+  }
+
+  .mContainerGt .imgGt {
+    max-width: 670px;
+    margin: 35px 0 0 0;
   }
 
 .main .footer{
