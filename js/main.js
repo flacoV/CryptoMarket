@@ -1,3 +1,5 @@
+console.log("El codigo se esta ejecutando");
+
 const signUpButton = document.getElementById("signUp");
 const signInButton = document.getElementById("signIn");
 const main = document.getElementById("mainC");
